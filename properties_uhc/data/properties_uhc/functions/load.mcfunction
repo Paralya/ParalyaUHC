@@ -19,7 +19,7 @@ forceload add 0 0
 #define score_holder #temp
 #define score_holder #pos
 
-gamerule announceAdvancements false
+gamerule announceAdvancements true
 gamerule doImmediateRespawn true
 gamerule doTraderSpawning false
 gamerule showDeathMessages false
