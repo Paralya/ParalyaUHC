@@ -7,6 +7,8 @@ scoreboard objectives add properties.data dummy
 scoreboard objectives add properties.leave minecraft.custom:minecraft.leave_game
 scoreboard objectives add properties.right_click minecraft.used:minecraft.warped_fungus_on_a_stick
 
+scoreboard objectives add properties.death deathCount
+
 scoreboard players set properties_uhc load.status 1000
 forceload add 0 0
 
@@ -20,6 +22,8 @@ forceload add 0 0
 gamerule announceAdvancements false
 gamerule doImmediateRespawn true
 gamerule doTraderSpawning false
+gamerule showDeathMessages false
+gamerule naturalRegeneration false
 
 ##Storage
 #tellraw @a ["\n",{"nbt":"Paralya","storage":"properties_uhc:main","interpret":true},{"text":" Souhaitez tous la bienvenue à "},{"selector":"@s","color":"aqua"},{"text":" !\nN'oublie pas de remercier le joueur de ton choix de l'invitation pour avoir des récompenses avec /merci"}]
@@ -29,3 +33,4 @@ data modify storage properties_uhc:main ParalyaHelp set value '[{"text":"[","col
 data modify storage properties_uhc:main Paralya set value '[{"text":"[","color":"dark_aqua"},{"text":"Paralya","color":"aqua"},{"text":"]","color":"dark_aqua"}]'
 
 function properties_uhc:set_constants
+
