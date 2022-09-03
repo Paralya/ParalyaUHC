@@ -1,15 +1,27 @@
 {
 	"criteria": {
-	  "requirement": {
-		"trigger": "minecraft:entity_killed_player",
-		"conditions": {
-		  "entity": {
-			"type": "minecraft:tnt"
-		  }
+		"requirement": {
+			"trigger": "minecraft:entity_killed_player",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type": "minecraft:creeper"
+							}
+						}
+					}
+				],
+				"killing_blow": {
+					"is_explosion": true
+				}
+			}
 		}
-	  }
 	},
 	"rewards": {
-	  "function": "properties_uhc:player/death"
+		"function": "properties_uhc:player/death"
 	}
-  }
+}

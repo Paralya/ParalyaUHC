@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"nbt": "{Tags:[\"properties.explosive_arrow\"]}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "properties_uhc:player/properties/explosive_arrow/player_hurt"
+	}
+}

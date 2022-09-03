@@ -7,6 +7,7 @@ scoreboard objectives add properties.id dummy
 scoreboard objectives add properties.data dummy
 scoreboard objectives add properties.leave minecraft.custom:minecraft.leave_game
 scoreboard objectives add properties.right_click minecraft.used:minecraft.warped_fungus_on_a_stick
+scoreboard objectives add properties.used.bow minecraft.used:minecraft.bow
 
 scoreboard objectives add properties.death deathCount
 
