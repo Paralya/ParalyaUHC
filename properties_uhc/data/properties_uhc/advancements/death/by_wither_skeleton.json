@@ -4,7 +4,7 @@
 			"trigger": "minecraft:entity_killed_player",
 			"conditions": {
 				"entity": {
-					"type": "wither_skeleton"
+					"type": "minecraft:wither_skeleton"
 				}
 			}
 		}

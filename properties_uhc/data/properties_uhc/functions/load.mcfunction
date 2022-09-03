@@ -3,6 +3,7 @@ tag Stoupy51 add convention.debug
 
 scoreboard objectives add properties.money dummy
 
+scoreboard objectives add properties.id dummy
 scoreboard objectives add properties.data dummy
 scoreboard objectives add properties.leave minecraft.custom:minecraft.leave_game
 scoreboard objectives add properties.right_click minecraft.used:minecraft.warped_fungus_on_a_stick

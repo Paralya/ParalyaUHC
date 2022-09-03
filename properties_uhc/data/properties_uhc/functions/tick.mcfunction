@@ -8,3 +8,6 @@
 	execute if score #state properties.data matches 2 run function properties_uhc:engine/tick
 	scoreboard players reset * properties.right_click
 
+#Player Position register
+	tp @e[type=marker,tag=properties.player_pos] 0 0 0
+	execute as @e[type=marker,tag=properties.player_pos] run function properties_uhc:player/marker_position
