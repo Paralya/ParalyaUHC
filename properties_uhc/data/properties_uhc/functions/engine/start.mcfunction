@@ -50,9 +50,5 @@ team join properties.sidebar.2 Ep
 team join properties.sidebar.1 Te
 team join properties.sidebar.0 ▬
 
-
-scoreboard objectives setdisplay sidebar properties.sidebar
-scoreboard players set #second properties.data 1
-
-
+function properties_uhc:engine/started
 
