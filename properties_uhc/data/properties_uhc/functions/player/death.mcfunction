@@ -18,3 +18,5 @@ execute if score #success properties.data matches 0 run tellraw @a ["",{"text":"
 advancement revoke @s only properties_uhc:death/by_zombie
 advancement revoke @s only properties_uhc:death/by_skeleton
 advancement revoke @s only properties_uhc:death/by_wither_skeleton
+advancement revoke @s only properties_uhc:death/by_enderman
+advancement revoke @s only properties_uhc:death/by_creeper
