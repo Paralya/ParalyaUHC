@@ -218,6 +218,7 @@ scoreboard players set #98 properties.data 98
 scoreboard players set #99 properties.data 99
 scoreboard players set #100 properties.data 100
 scoreboard players set #1000 properties.data 1000
+scoreboard players set #1200 properties.data 1200
 scoreboard players set #10000 properties.data 10000
 scoreboard players set #100000 properties.data 100000
 scoreboard players set #1000000 properties.data 1000000
