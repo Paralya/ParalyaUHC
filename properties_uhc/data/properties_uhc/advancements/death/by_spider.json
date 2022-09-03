@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_killed_player",
+			"conditions": {
+				"entity": {
+					"type": "#properties_uhc:spiders"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "properties_uhc:player/death"
+	}
+}

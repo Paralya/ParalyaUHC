@@ -22,4 +22,5 @@ advancement revoke @s only properties_uhc:death/by_skeleton
 advancement revoke @s only properties_uhc:death/by_wither_skeleton
 advancement revoke @s only properties_uhc:death/by_enderman
 advancement revoke @s only properties_uhc:death/by_creeper
+advancement revoke @s only properties_uhc:death/by_spider
 
