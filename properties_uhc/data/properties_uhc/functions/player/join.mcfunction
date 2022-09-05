@@ -9,6 +9,6 @@ clear @s
 effect give @s resistance 60 255 true
 effect give @s saturation 1200 255 true
 give @s cooked_beef 16
-give @s stone_axe 16
+give @s stone_axe
 give @s book
 
