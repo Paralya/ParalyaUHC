@@ -7,3 +7,4 @@ execute if entity @s[tag=properties.quick_arrow] run function properties_uhc:pla
 execute if entity @s[tag=properties.flame_arrow] if predicate properties_uhc:chance/0.15 run function properties_uhc:player/properties/flame_arrow/main
 
 tag @e[type=arrow,tag=!properties.checked] add properties.checked
+
